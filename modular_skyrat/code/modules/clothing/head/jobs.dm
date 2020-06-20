@@ -21,3 +21,14 @@
 	mob_overlay_icon = 'modular_skyrat/icons/mob/clothing/head.dmi'
 	icon_state = "blueshield_navy"
 	item_state = "blueshield_navy"
+
+//entcorp caps
+/obj/item/clothing/head/entcorp
+	name = "enterprise uniform cap"
+	desc = "A visored cap."
+	icon = 'modular_skyrat/icons/obj/clothing/hats.dmi'
+	mob_overlay_icon = 'modular_skyrat/icons/mob/clothing/head.dmi'
+	icon_state = "kepi_ass"
+
+/obj/item/clothing/head/entcorp/service
+		icon_state = "kepi_srv"

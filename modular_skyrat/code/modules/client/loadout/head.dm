@@ -124,19 +124,32 @@
 	path = /obj/item/clothing/head/beanie/cyan
 
 /datum/gear/trekcap
-	name = "EntCorp Officer's Cap (White)"
+	name = "EntCorp Formal Cap (White)"
 
 /datum/gear/trekcapmedisci
-	name = "EntCorp Officer's Cap (Blue)"
+	name = "EntCorp Formal Cap (Blue)"
 	restricted_roles = MEDSCI_ROLES
 
 /datum/gear/trekcapsec
-	name = "EntCorp Officer's Cap (Red)"
+	name = "EntCorp Formal Cap (Red)"
 	restricted_roles = list("Head of Security", "Captain", "Head of Personnel", "Chief Engineer", "Research Director", "Chief Medical Officer", "Quartermaster", "Blueshield", "Brig Physician", "Warden", "Detective", "Security Officer")
 
 /datum/gear/trekcapeng
-	name = "EntCorp Officer's Cap (Yellow)"
+	name = "EntCorp Formal Cap (Yellow)"
 
 /datum/gear/trekcapcap
-	name = "EntCorp Officer's Cap (Black)"
+	name = "EntCorp Formal Cap (Black)"
 	restricted_roles = list("Captain", "Head of Personnel", "Blueshield")
+
+/datum/gear/entcorpcap
+	name = "EntCorp Uniform Cap (Grey)"
+	description = "A visored cap. It is intended to go with 'Orvlike' reskin of EntCorp uniform."
+	category = SLOT_HEAD
+	restricted_roles = list("Assistant")
+	path = /obj/item/clothing/head/entcorp
+
+/datum/gear/entcorpcap/service
+	name = "EntCorp Uniform Cap (Green)"
+	restricted_roles = CIV_ROLES
+	restricted_desc = "Civilian and Service"
+	path = /obj/item/clothing/head/entcorp/service

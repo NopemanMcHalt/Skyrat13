@@ -860,7 +860,7 @@
 				/obj/item/taperecorder)
 
 /obj/item/clothing/head/caphat/formal/fedcover
-	name = "enterprise officer cap"
+	name = "enterprise formal cap"
 	desc = "A peaked cap, that demands <i>at least <u>some</u></i> discipline from its wearer."
 
 // PrisArch-like color codes for prisoners. Uses _stored variation for Warden's control.
